@@ -12,7 +12,6 @@ const Login: React.FC<LoginProps> = ({ onLogin }) => {
   const [password, setPassword] = useState('');
 
   const handleLogin = () => {
-    // Exemplo básico: verificar se o email e senha são válidos
     if (email === 'usuario@gmail.com' && password === 'senha123') {
       // Se autenticação bem-sucedida, chame a função onLogin
       onLogin();
